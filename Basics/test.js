@@ -1,3 +1,5 @@
-const num = 12e7
+let statement = "My name is John Wick. I am a man of shere will."; 
+let name = statement.slice(2,10)
 
-console.log(num)
+console.log(statement)
+console.log(name)
