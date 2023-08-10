@@ -1,22 +1,27 @@
 ➤ What is NodeJS?
-Node JS is a Javascript runtime environment which allows us to run Javascript out of a web browser. 
-It is open-source and cross-platform. 
-Open source হওয়ায় এটা transparent, কেউ চাইলে এখানে contribute করতে পারে 
-Cross platform হওয়ায় এটা বিভিন্ন environment/operating system এ কাজ করে এবং এটি দিয়ে তৈরি প্রোগ্রামও বিভিন্ন operating system এ কাজ করে 
+* Node JS is a Javascript runtime environment which allows us to run Javascript out of a web browser. 
+* It is open-source and cross-platform. 
+* Open source হওয়ায় এটা transparent, কেউ চাইলে এখানে contribute করতে পারে 
+* Cross platform হওয়ায় এটা বিভিন্ন environment/operating system এ কাজ করে এবং এটি দিয়ে তৈরি প্রোগ্রামও বিভিন্ন operating system এ কাজ করে 
  
 ➤ What is NPM?? 
-NPM stands for Node Package Manager 
-It is a package manager for javascript specially designed for use with Node.js environment  
+* NPM stands for Node Package Manager 
+* It is a package manager for javascript specially designed for use with Node.js environment  
 
 ➤ Why is NPM needed? How does NPM work?
 … 
 
 ➤ What do I need to run Javascript on my machine? 
-A code editor or IDE(Integrated Development Environment) 
-Node.js installed 
-NPM (comes with Node.js) 
+* A code editor or IDE(Integrated Development Environment) 
+* Node.js installed 
+* NPM (comes with Node.js) 
 
 ➤ What is Type Coercion? 
-Type Coercion refers to the changing of datatype of a variable by the compiler 
-Coercion অর্থ ‘জবরদস্তি’। Type Coercion মানে কোনো এক variable এর data type জবরদস্তি পরিবর্তন করে দেয়া যাতে প্রোগ্রামটি error না দেয় 
+* Type Coercion refers to the changing of datatype of a variable by the compiler 
+* Coercion অর্থ ‘জবরদস্তি’। Type Coercion মানে কোনো এক variable এর data type জবরদস্তি পরিবর্তন করে দেয়া যাতে প্রোগ্রামটি error না দেয় 
 
+➤ slice vs substring 
+* slice() and substring() both are string methods 
+* উভয় মেথডই দুটো parameter নিতে পারে - start, end 
+* slice()-এ start এর value end থেকে বড় হলে এটা empty string return করে 
+* substring()-এ start এর value end থেকে বড় হলে এটা values swap করে ফেলে অর্থাৎ, start-কে end আর end-কে start ধরে নেয় 

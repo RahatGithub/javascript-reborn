@@ -1,5 +1,5 @@
-let statement = "My name is John Wick. I am a man of shere will."; 
-let name = statement.slice(2,10)
+let str = "RAC";
 
-console.log(statement)
-console.log(name)
+str_pad = str.padEnd(5,".");
+
+console.log(str_pad)
