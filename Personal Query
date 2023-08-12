@@ -25,3 +25,13 @@
 * উভয় মেথডই দুটো parameter নিতে পারে - start, end 
 * slice()-এ start এর value end থেকে বড় হলে এটা empty string return করে 
 * substring()-এ start এর value end থেকে বড় হলে এটা values swap করে ফেলে অর্থাৎ, start-কে end আর end-কে start ধরে নেয় 
+
+➤ x=Array(10) আর x=[10] এর মধ্যে পার্থক্য কি? 
+* সাধারণত x=Array(num1,num2,num3) এবং x=[num1,num2,num3] উভয়ভাবেই array declare করা যায় 
+* তবে শুধুমাত্র একটা element থাকলে সবসময় x=[num1] এইভাবে declare করতে হবে 
+* x=Array(10) মানে এমন একটা array যার length ১০ 
+* আর x=[10] মানে এমন একটা array যার length ১ এবং value 10  
+
+➤ arr.push(x) আর arr.pop() কি return করে? 
+* arr.pop() popped element return করে 
+* arr.push(x) arr এর নতুন length return করে 
