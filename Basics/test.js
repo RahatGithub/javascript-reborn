@@ -1,5 +1,7 @@
-let arr = [1250,201,420,33];
+let arr = [12, 15, 45, 67, 89];
 
-arr.sort()
+arr.forEach(myFunc);
 
-console.log(arr)
+function myFunc(value, index, array){
+    console.log(value)
+}

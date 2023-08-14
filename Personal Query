@@ -41,8 +41,8 @@
 * splice() existing array-এর মধ্যেই operation করে সেটা পরিবর্তন করে দেয়
 * splice() কিছু return করে না   
 
-➤ sort() দিয়ে সবধরণের sorting করতে গেলে কি সমস্যা? 
-* sort() শুধু string sort করার জন্য 
+➤ sort() ও reverse() দিয়ে numbers sorting করতে গেলে কি সমস্যা? 
+* sort() ও reverse() শুধু string sort করার জন্য 
 * [205,1250,420,35] এই array sort করতে দিলে sorted array হবে [1250,205,35,420] কারণ JS compiler প্রতিটা array element কে string আকারে নিয়ে compare করে 
 * এর সমাধান: 
     * arr.sort(function(a,b){return a-b}) // ascending order  
