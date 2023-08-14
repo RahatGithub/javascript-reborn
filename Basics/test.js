@@ -1,5 +1,5 @@
-let x = new Array(10);
-let y = Array(10);
-let z = [10]
+let arr = [1250,201,420,33];
 
-console.log(x.length, y.length, z.length)
+arr.sort()
+
+console.log(arr)

@@ -35,3 +35,15 @@
 ➤ arr.push(x) আর arr.pop() কি return করে? 
 * arr.pop() popped element return করে 
 * arr.push(x) arr এর নতুন length return করে 
+
+➤ slice() vs splice() 
+* slice() নতুন একটি array return করে এবং পুরাতন array অক্ষত থাকে 
+* splice() existing array-এর মধ্যেই operation করে সেটা পরিবর্তন করে দেয়
+* splice() কিছু return করে না   
+
+➤ sort() দিয়ে সবধরণের sorting করতে গেলে কি সমস্যা? 
+* sort() শুধু string sort করার জন্য 
+* [205,1250,420,35] এই array sort করতে দিলে sorted array হবে [1250,205,35,420] কারণ JS compiler প্রতিটা array element কে string আকারে নিয়ে compare করে 
+* এর সমাধান: 
+    * arr.sort(function(a,b){return a-b}) // ascending order  
+    * arr.sort(function(a,b){return b-a}) // descending order  
