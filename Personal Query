@@ -47,3 +47,6 @@
 * এর সমাধান: 
     * arr.sort(function(a,b){return a-b}) // ascending order  
     * arr.sort(function(a,b){return b-a}) // descending order  
+
+➤ What is callback function? 
+* callback function is a function that is passed through another function as argument 
