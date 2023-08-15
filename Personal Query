@@ -50,3 +50,9 @@
 
 ➤ What is callback function? 
 * callback function is a function that is passed through another function as argument 
+
+➤ map() and flatMap() 
+* both uses callback functions 
+* both creates new array as the result 
+* map() keeps the dimension of the result array same as the main array 
+* flatMap() always make the dimension 1xN. Basically it flattens the result array  
