@@ -56,3 +56,7 @@
 * both creates new array as the result 
 * map() keeps the dimension of the result array same as the main array 
 * flatMap() always make the dimension 1xN. Basically it flattens the result array  
+
+➤ Array declared with 'let' vs array declared with 'const': 
+* Arrays declared with 'let' are mutable but arrays declared with 'const' are immutable 
+* When declared with 'let', the whole array can be reassigned but if declared with 'const' then it may be modified but not be fully changed or reassigned the whole array 
