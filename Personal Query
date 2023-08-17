@@ -60,3 +60,23 @@
 ➤ Array declared with 'let' vs array declared with 'const': 
 * Arrays declared with 'let' are mutable but arrays declared with 'const' are immutable 
 * When declared with 'let', the whole array can be reassigned but if declared with 'const' then it may be modified but not be fully changed or reassigned the whole array 
+
+➤ for/in loop vs for/of loop 
+* for/in loop iterates through the variables or keys of an object 
+* for/of loop iterates through the values of an iterable object 
+* Example 1: 
+    let arr = [2,5,11,27,36]
+    for(let x in arr){
+        //here x is the index, iteratively: 0 1 2 3 4
+    }
+    for(let x of arr){
+        //here x is the value, iteratively: 2 5 11 27 36
+    } 
+* Example 2: 
+    let std = {name: "John Doe", reg: "257896", batch: "25th"}
+    for(let x in std){
+        //x is iteratively: name reg batch
+    }
+    for(let x of std){
+        //error: std is not iterable 
+    }

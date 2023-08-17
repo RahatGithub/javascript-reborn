@@ -1,8 +1,5 @@
-const bikes = ["FZS v2", "Gixxer SF", "Gixxer monoton"];
-let x = bikes
-console.log(bikes)
-console.log(x)
-bikes.pop()
+const std = {name: "John Doe", reg: 26985, batch: "25th"}
 
-console.log(bikes)
-console.log(x)
+for (let x in std){
+    console.log(x);
+}
