@@ -80,3 +80,10 @@
     for(let x of std){
         //error: std is not iterable 
     }
+
+    ➤ What is scope? 
+    * Scope determines the accessibility of variables 
+    * JS has 3 types of scopes: 
+        * Block scope (inside if-else, loops etc)
+        * Function scope (inside a function)
+        * Global scope (globally declared- accessible from everywhere)
