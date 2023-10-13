@@ -1,0 +1,6 @@
+➤ Displaying output in 4 ways: 
+* window.alert() 
+* document.write()
+* innerHTML 
+* console.log() 
+
