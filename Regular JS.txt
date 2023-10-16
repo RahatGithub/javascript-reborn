@@ -1,6 +1,13 @@
+➤ Javascript engines used by the browsers: 
+* Chrome: v8 
+* Safari: JavascriptCore 
+* Firefox: SpiderMonkey 
+* Edge: Chakra 
+
 ➤ Displaying output in 4 ways: 
-* window.alert() 
+* window.alert()  
 * document.write()
 * innerHTML 
-* console.log() 
+* console.log() //only in node.js 
+
 
