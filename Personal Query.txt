@@ -81,9 +81,16 @@
         //error: std is not iterable 
     }
 
-    ➤ What is scope? 
-    * Scope determines the accessibility of variables 
-    * JS has 3 types of scopes: 
-        * Block scope (inside if-else, loops etc)
-        * Function scope (inside a function)
-        * Global scope (globally declared- accessible from everywhere)
+➤ What is scope? 
+* Scope determines the accessibility of variables 
+* JS has 3 types of scopes: 
+    * Block scope (inside if-else, loops etc)
+    * Function scope (inside a function)
+    * Global scope (globally declared- accessible from everywhere)
+ 
+ ➤ Spread operator(...) vs Rest operator(...):
+ * Syntax-wise both are same but they are used for different purposes 
+ * Spread operator is used to split an array/object and construct a new array/object. 
+    * e.g. let items = [...arr1, item1, item2, ...arr2] 
+ * Rest operator is used to split the items of an array/object while passing them as arguments of a function 
+    * e.g. function do_something(...arr1){  } //all elements of arr1 is passed as arguments of do_something()
